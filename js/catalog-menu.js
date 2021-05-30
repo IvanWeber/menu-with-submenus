@@ -1,6 +1,6 @@
 
 
-      url = URL // constant URL must be set in file js/config.js
+      url = URL // Constant URL must be set in file js/config.js. Catalog menu must be represented in json format and provided for requests from the frontend at this url.
 
       const renderMenu = (catalogMenuObj, innerSpan) => {
         const catalogMenu = document.querySelector('.catalog-menu');
