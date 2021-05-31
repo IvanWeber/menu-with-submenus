@@ -13,9 +13,16 @@
          
           catalogMenu.appendChild(li);
         });
-        var span = document.createElement("span");
-        span.innerHTML = innerSpan
-        catalogMenu.appendChild(span);
+        if (innerSpan === "") {
+          var span = document.createElement("span");
+          span.className = "back-hidden"
+          span.innerHTML = innerSpan
+          catalogMenu.appendChild(span);
+        } else {
+          var span = document.createElement("span");
+          span.innerHTML = innerSpan
+          catalogMenu.appendChild(span);
+        }
       }
 
       const spanClickHandler = (menuList, menusArray = [menuList]) => {

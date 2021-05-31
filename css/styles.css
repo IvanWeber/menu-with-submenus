@@ -46,6 +46,9 @@ p {
 }
 
 .catalog-menu {
+  display: flex;
+  flex-direction: column;
+
   list-style: none;
   max-width: 500px;
 }
@@ -64,6 +67,10 @@ p {
 
   margin-top: 5px;
   padding: 5px;
+}
+
+.back-hidden {
+  display: none;
 }
 
 .menu-list li a{
