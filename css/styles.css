@@ -4,6 +4,13 @@ html {
 
 body {
   margin: 0;
+  font-size: 2rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 ul {
@@ -35,6 +42,27 @@ p {
 
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
+}
+
+.catalog-menu {
+  list-style: none;
+  max-width: 500px;
+}
+
+.catalog-menu li {
+  cursor: pointer;
+  background-color: rgb(116, 116, 228);
+
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.catalog-menu span {
+  cursor: pointer;
+  background-color: rgb(228, 179, 47);
+
+  margin-top: 5px;
   padding: 5px;
 }
 
